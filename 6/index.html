@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Homework6 spisok</title>
+			<style>
+				ul {
+					list-style: none;
+					display: block;
+				}
+				a {
+					color: black;
+					font-size: 25px;
+					text-decoration: none;
+				}
+ 				a:hover { 
+    				text-decoration: underline;
+				}
+				ul li::before {
+					content: '★';
+				}
+				ul ul li::before {
+					content: '❤';
+				}
+				ul ul ul li::before {
+					content: '☀';
+				}
+			</style>
+	</head>
+	<body>
+		<ul>
+			<li><a href="#">Я простая ссылка</a></li>
+			<li><a href="#">А я ссылка с ховером</a></li>
+				<ul>
+					<li><a href="#">И еще одна ссылка уже во внутреннем списке</a></li>
+					<li><a href="#">И еще одна ссылка уже во внутреннем списке</a></li>
+					<li><a href="#">И еще одна ссылка уже во внутреннем списке</a></li>
+						<ul>
+							<li><a href="#">Последняя ссылка в списке 3-го уровня</a></li>
+						</ul>
+					<li><a href="#">Вернемся назад</a></li>
+				</ul>
+			<li><a href="#">И еще назад</a></li>
+		</ul>
+	</body>
+</html>
