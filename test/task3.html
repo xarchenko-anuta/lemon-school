@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<style>
+			* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		form {
+			max-width: 400px;
+			border: 1px solid black;
+			margin: 20px auto;
+			box-shadow: 0 0 30px 0 rgba(0, 0, 0, .2);
+			padding: 15px 10px;
+		}
+		input[type="text"],
+		textarea {
+			display: block;
+			width: 100%
+		}
+		input[type="submit"] {
+			background-color: black;
+			color: white;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		input[type="radio"] {
+			display: none;
+		}
+		input[type="radio"] + label {
+			display: inline-block;
+			box-sizing: border-box;
+			width: 10px;
+			height: 10px;
+			border-radius: 50%;
+			background-color: #fff;
+			border: 2px solid #000;
+		}
+		input[type="radio"]:checked + label {
+			border: 3px solid #fff;
+			background-color: #000;
+		}
+			
+			
+		</style>
+	</head>
+	<body>
+		<form method="get" novalidate>
+			<div class="form">
+				<label for="name" class="text-label">Ваше имя</label>
+				<input type="text" id="name" name="name" placeholder="Например, Иванов Иван Иванович">
+			</div>
+			<div class="form">
+				<label for="about" class="text-label">Ваш род деятельности</label>
+				<textarea id="about" name="textarea" placeholder="Например, Выращиваю огурцы"></textarea>
+			</div>
+			<div class="form">
+				<label for="radio" class="text-label">Согласны ли Вы с условиями?</label>
+				<div>
+				<input type="radio" name="radio" id="radio1">
+				<label for="radio1">Категорически ДА!</label>
+				<input type="radio" name="radio" id="radio2">
+				<label for="radio2">Категорически НЕТ!</label>
+			</div>
+				<input type="submit" value="Отправить">
+			</form>
+	</body>
+</html>
