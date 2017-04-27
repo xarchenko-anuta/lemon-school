@@ -1,0 +1,123 @@
+.stories {
+	display: block;
+	max-width: 100%;
+}
+.wrapper_stories {
+	margin-left: auto;
+	margin-right: auto;	
+	text-align: center;
+	padding-bottom: 70px;
+}
+.wrapper_stories::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.stories_h2 {
+	color: #333;
+	font-size: 24px;
+	font-family: 'Kaushan Script', cursive;
+	padding-top: 70px;
+	padding-bottom: 20px;
+}
+.stories_h1 {
+	color: #333;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+.line_stories {
+	width: 60px;
+	height: 3px;
+	background-color: #f38181;
+	margin-left: auto;
+	margin-right: auto;	
+	margin-bottom: 40px;
+}
+.stories_description {
+	display: block;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;	
+}
+.about_stories {
+	display: inline-block;
+	max-width: 30%;
+}
+img.stories_img {
+	width: 330px;
+	height: 200px;
+}
+.stories_calendar {
+	position: relative;
+}
+.stories_calendar::before {
+	position: absolute;
+	content: '15 Jan';
+	color: #fff;
+	display: block;
+	width: 50px;
+	height: 60px;
+	background-color: #95e1d3;
+	left: 10px;
+	top: 130px;
+}
+.stories-name {
+	color: #333;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: left;
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.storeis_text {
+	color: #999;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+	line-height: 20px;
+	border-bottom: 1px solid #999;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+.stories_views {
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	color: #999;
+}
+.stories_message {
+	font-size: 14px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	color: #999;
+	text-align: left;
+}
+.stories_views::before {
+	content: '';
+	display: inline-block;
+	background-image: url(images/sprite_storeis.png);
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 12px;
+	background-position: 0px 0px;
+}
+.stories_message::before {
+	content: '';
+	display: inline-block;
+	background-image: url(images/sprite_storeis.png);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 15px;
+	background-position: -30px 0px;
+}

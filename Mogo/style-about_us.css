@@ -1,0 +1,99 @@
+.about_us {
+	display: block;
+	max-width: 100%;
+}
+.about_us::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.wrapper-about_us {
+	text-align: center;
+}
+.what_do {
+	font-family: 'Kaushan Script', cursive;
+	font-weight: 400;
+	font-size: 24px;
+	color: #333;
+	padding-top: 40px;
+	padding-bottom: 15px;
+}
+.story_us {
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #333;
+}
+.line-about_us {
+	width: 60px;
+	height: 3px;
+	background-color: #f38181;
+	margin-left: auto;
+	margin-right: auto;	
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.text-about_us {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	line-height: 24px;
+	color: #999;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;	
+}
+.img-about_us {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.img_a {
+	width: 300px;
+	height: 200px;
+	margin-right: 40px;
+}
+.img-about_us a {
+	position: relative;
+	border: none;
+}
+.img-about_us a:hover::before {
+	content: 'SUPER TEAM';
+	color: #fff;
+	font-weight: 700;
+	position: absolute;
+	background: linear-gradient(rgba(219, 116, 116, 0.9), rgba(227, 204, 124, 0.9));
+	width: 300px;
+	height: 200px;
+	box-shadow: 10px 10px 0 0 rgba(149,225,211,1);
+}
+/*::before {
+	content: "";
+	position: absolute;
+	display: block;
+	background-image: url(images/superteam.png);
+	width: 32px;
+	height: 23px;
+	background-position: 0 0;*/
+}
+.wrapper_num {
+	max-width: 100%;
+	background: #95e1d3;
+}
+.bl{
+	float: left;
+	width: 20%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #95e1d3;
+	text-align: center;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+.number {
+	font-size: 52px;
+	font-weight: 700;
+	color: #fff;
+}
+.text {
+	color: #fff;
+	font-size: 10px;
+}

@@ -1,0 +1,85 @@
+.happy_clients {
+	display: block;
+	max-width: 100%;
+}
+.wrapper_happy_clients {
+	background-image: url(images/bgi_happy_clients.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.happy_clients_h2 {
+	color: #333;
+	font-size: 24px;
+	font-family: 'Kaushan Script', cursive;
+	padding-top: 60px;
+	padding-bottom: 25px;
+} 
+.happy_clients_h1 {
+	color: #333;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-bottom: 40px;
+}
+.line_happy_clients_h1 {
+	width: 60px;
+	height: 3px;
+	background-color: #f38181;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 60px;
+}
+.happy_clients_description {
+	max-width: 90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.who_happy_clients {
+	max-width: 45%;
+	display: inline-block;
+	text-align: left;
+	padding-bottom: 60px;
+}
+.who_happy_clients:: after {
+	content: '';
+	display: inline-block;
+	clear: both;
+}
+.happy_clients_foto {
+	float: left;
+	padding-right: 20px;
+}
+.happy_clients_name {
+	color: #333;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+.happy_clients_position {
+	color: #333;
+	font-size: 13px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+	padding-bottom: 10px;
+}
+.line_happy_clients {
+	width: 60px;
+	height: 3px;
+	background-color: #f38181;
+	margin-left: 135px;
+	margin-bottom: 10px;
+}
+.happy_clients_text {
+	color: #999;
+	font-size: 13px;
+	max-width: 90%;
+}

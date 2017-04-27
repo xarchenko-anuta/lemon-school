@@ -1,0 +1,28 @@
+.map {
+	display: block;
+	max-width: 100%;
+	text-align: center;
+	background-image: url(images/map.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	padding-bottom: 50px
+}
+.map_logo {
+	padding-top: 50px;
+}
+.map_open {
+	color: #f38181;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-top: 20px;
+}
+.line_map {
+	width: 60px;
+	height: 3px;
+	background-color: #f38181;
+	margin-left: auto;
+	margin-right: auto;	
+	margin-top: 20px;
+}

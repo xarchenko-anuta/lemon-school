@@ -1,0 +1,142 @@
+.meet {
+	display: block;
+	max-width: 100%;
+}
+.meet-wrapper {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+.meet_h2 {
+	color: #333;
+	font-size: 24px;
+	font-family: 'Kaushan Script', cursive;
+	padding-top: 25px;
+	padding-bottom: 10px;
+} 
+h5 {
+	color: #333;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+}
+.line_meet {
+	width: 60px;
+	height: 3px;
+	background-color: #f38181;
+	margin-left: auto;
+	margin-right: auto;	
+	margin-bottom: 20px;
+}
+.meet_text {
+	max-width: 70%;
+	color: #999;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 25px;
+}
+.who_we_are {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;	
+}
+.who_we_are_description {
+	display: inline-block;
+	padding-bottom: 40px;
+}
+img.meet_img {
+	width: 250px;
+	height: 300px;
+	margin-right: 40px;
+}
+.who_we_are_description a {
+	position: relative;
+	max-width: 100%;
+	border: none;
+	text-decoration: none;
+}
+.who_we_are_description a:hover::before {
+	content: '';
+	position: absolute;
+	background: linear-gradient(rgba(219, 116, 116, 0.9), rgba(227, 204, 124, 0.9));
+	width: 250px;
+	height: 300px;
+	box-shadow: 10px 10px 0 0 rgba(149,225,211,1);
+}
+/*.who_we_are_description_social_networks ul {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+}
+.who_we_are_description_social_networks ul li {
+	display: inline-block;
+	width: 48px;
+	height: 45px;
+	background-color: #fce38a;
+	border-right: 1px solid #f38181;
+	
+}
+.who_we_are_description_social_networks ul li:hover {
+	display: inline-block;
+	width: 52px;
+	height: 48px;
+	background-color: #f38181;
+	border-left: 1px solid #f38181;
+	
+}
+.who_we_are_description a:hover .who_we_are_description_social_networks {
+	opacity: ;
+}
+.who_we_are_description_social_networks ul li a::after {
+	content: '';
+	display: inline-block;
+	background-image: url(images/sprite_meet.png);
+	background-repeat: no-repeat;
+	vertical-align: middle;
+}
+.fbu::after {
+	width: 12px;
+	height: 26px;
+	background-position: 0px 0px;
+}
+.twi::after {
+	width: 26px;
+	height: 22px;
+	background-position: -58px 0px;
+}
+.twi:hover::after {
+	width: 26px;
+	height: 22px;
+	background-position: -22px 0px;
+}*/
+.who_we_are_name {
+	display: block;
+	color: #333;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	padding-top: 30px;
+}
+.who_we_are_position {
+	color: #333;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+}
+.meet_insignia {
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;	
+	background-color: #f8f8f8;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.insignia {
+	max-width: 74%;
+	min-height: 15%;
+}

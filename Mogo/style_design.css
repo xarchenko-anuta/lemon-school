@@ -1,0 +1,30 @@
+.design {
+	display: block;
+	max-width: 100%;
+	background-image: url(images/bgi_design.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	text-align: center;
+}
+.design_h2 {
+	font-size: 24px;
+	font-family: 'Kaushan Script', cursive;
+	padding-top: 15px;
+}
+h3 {
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+.line_design {
+	width: 60px;
+	height: 3px;
+	background-color: #f38181;
+	margin-left: auto;
+	margin-right: auto;	
+	margin-bottom: 17px;
+}
+

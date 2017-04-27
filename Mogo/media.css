@@ -1,0 +1,559 @@
+@media screen and (max-width: 1300px) {
+	.img-what_we_do {
+		padding-left: 50px;	
+	}
+	.stories_description {
+		display: block;
+		max-width: 100%;
+	}
+}
+@media screen and (max-width: 1250px) {
+	.mogo {
+		margin-left: -180px;
+		margin-right: -250px;
+	}
+	.progress {
+		width: 150px;
+	}
+	.text-bar {
+		font-size: 12px;
+	}
+	.text_services {
+		width: 70%;
+	}
+	.design_img {
+		width: 400px;
+		height: 500px;
+	}
+	.mobile {
+		height: 390px;
+		margin-top: -330px;
+		padding-left: 700px;
+	}
+	.img-what_we_do {
+		display: none;
+	}
+	.accordion {
+		float: none;
+		padding-right: 80px;
+	}
+	#accordion {
+		margin-left: auto;
+		margin-right: auto;	
+	}
+}
+@media screen and (max-width: 1100px) {
+	.mobile {
+		height: 390px;
+		margin-top: -330px;
+		padding-left: 630px;
+	}
+	.happy_clients_text {
+		font-size: 11px;
+	}
+	.happy_clients_h1 {
+		padding-bottom: 20px;
+	}
+	.line_happy_clients_h1 {
+		margin-bottom: 30px;
+	}	
+}
+@media screen and (max-width: 1050px) {
+	.about_stories {
+		display: block;
+		max-width: 35%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;	
+	}
+}
+@media screen and (max-width: 1050px) {
+	.progress {
+		width: 100px;
+	}
+	.img_a {
+		width: 250px;
+		height: 150px;
+		margin-right: 20px;
+	}
+	.img-about_us a:hover::before {
+		width: 250px;
+		height: 150px;
+	}
+	.text_work {
+		padding-top: 50px;
+	}
+	.wrapper_services{
+		padding-bottom: 70px;
+	}
+	h2 {
+		padding-bottom: 30px;
+	}
+	.line_services {
+		margin-bottom: 35px;
+	}
+	.text_services {
+		font-size: 12px;
+		width: 60%;
+	}
+	.design_h2 {
+		font-size: 21px;
+	}
+	h3 {
+		font-size: 26px
+	}
+	.design_img {
+		width: 300px;
+		height: 400px;
+	}
+	.mobile {
+		height: 340px;
+		margin-top: -270px;
+		padding-left: 550px;
+	}
+	.carousel_text {
+		font-size: 20px;
+	}
+	.happy_clients_description {
+		max-width: 100%;
+	}
+	
+}
+@media screen and (max-width: 910px) {
+	.nav_list li {
+		display: block;
+	} 
+	header {
+		padding-right: 10px;
+	}
+	.header_nav {
+		position: relative;
+	}
+	.hide-nav {
+		position: relative;
+		width: 40px;
+		height: 34px;
+		background-color: #fff;
+		cursor: pointer;
+	}
+	.hide-nav_line {
+		position: absolute;
+		display: block;
+		width: 80%;
+		left: 10%;
+		height: 3px;
+		background-color: #e88282;
+		border-radius: 5px;
+	}
+	.hide-nav_line--top {
+		top: 5px;
+	}
+	.hide-nav_line--middle {
+		top: 15px;
+	}
+	.hide-nav_line--bottom {
+		top: 25px;
+	}
+	.creative_template {
+		font-size: 32px;
+	}
+	h1 {
+		font-size: 65px;
+	}
+	.sl_img {
+		height: 300px;
+	}
+	.progress {
+		width: 80px;
+		margin-left: 30px;
+	}
+	.text-bar {
+		font-size: 10px;
+	}
+	.photography_services,
+	.web-design_services,
+	.creativity_services {
+		border: none;
+	}
+	.photography_services,
+	.web-design_services,
+	.creativity_services,
+	.seo_services,
+	.css-html_services,
+	.digital_services {
+		display: inline-block;
+		width: 48%;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.text_services {
+		font-size: 14px;
+		width: 65%;
+	}
+	.design_h2 {
+		font-size: 19px;
+	}
+	h3 {
+		font-size: 24px
+	}
+	.design_img {
+		width: 250px;
+		height: 350px;
+	}
+	.mobile {
+		height: 290px;
+		margin-top: -235px;
+		padding-left: 480px;
+	}
+	.carousel_text {
+		font-size: 17px;
+	}
+	.line_carousel {
+		font-size: 17px;
+	}
+	.meet_h2 {
+		padding-top: 10px;
+	}
+	.who_we_are_description {
+		padding-bottom: 15px;
+	}
+	img.meet_img {
+		width: 200px;
+		height: 250px;
+		margin-right: 20px;
+	}
+	.who_we_are_description a:hover::before {
+		width: 200px;
+		height: 250px;
+	}
+	.carousel_some_work_text {
+		font-size: 19px;
+	}
+	.line_carousel {
+		font-size: 19px;
+	}
+	.wrapper_happy_clients {
+		padding-bottom: 25px;
+	}
+	.happy_clients_h2 {
+		padding-top: 20px;
+	}
+	.who_happy_clients {
+		display: block;
+		max-width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 30px;
+	}
+}
+@media screen and (max-width: 850px) {
+	.img-about_us a{
+		display: block;
+	}
+	.img_a {
+		width: 300px;
+		height: 200px;
+		margin-right: 20px;
+	}
+	.img-about_us a:hover::before {
+		width: 300px;
+		height: 200px;
+	}
+	.text_services {
+		font-size: 11px;
+		width: 60%;
+	}
+	.mobile {
+		padding-left: 450px;
+	}
+	.carousel_some_work_text {
+		font-size: 16px;
+	}
+	.line_carousel {
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 750px) {
+	.mobile {
+		padding-left: 400px;
+	}
+	.carousel_text {
+		font-size: 14px;
+	}
+	.line_carousel {
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 700px) {
+	.progress {
+		margin-left: 10px;
+	}
+	.what_do {
+		font-size: 20px;
+	}
+	.story_us {
+		font-size: 25px;
+	}
+	.text-about_us {
+		font-size: 12px;
+	}
+	.number {
+		font-size: 40px;
+	}
+	.text {
+		font-size: 8px;
+	}
+	.text_work {
+		padding-top: 50px;
+		font-size: 20px;
+	}
+	h2 {
+		font-size: 28px;
+	}
+	.line_services {
+		margin-bottom: 20px;
+	}
+	.wrapper_services {
+		padding-bottom: 40px;
+	}
+	.photography_services,
+	.web-design_services,
+	.creativity_services,
+	.seo_services,
+	.css-html_services,
+	.digital_services {
+		display: block;
+	}
+	.text_services {
+		font-size: 15px;
+		width: 85%;
+	}
+	.mobile {
+		padding-left: 340px;
+	}
+	.text_what_we_do {
+		font-size: 12px;
+	}
+	.accordion {
+		padding-right: 150px;
+		padding-left: 10px;
+	}
+	.who_we_are_description {
+		display: block;
+	}
+	.meet_h2 {
+		font-size: 21px;
+	}
+	h5 {
+		font-size: 27px;
+	}
+	.meet_text {
+		font-size: 12px;
+	}
+	.some_work_h2 {
+		font-size: 21px;
+	}
+	h6 {
+		font-size: 26px;
+	}
+	.some_work_text {
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.mogo {
+		font-size: 25px;
+	}
+	.creative_template {
+		font-size: 22px;
+	}
+	h1 {
+		font-size: 52px;
+	}
+	.sl_img {
+		height: 250px;
+	}
+	.header {
+		padding-bottom: 25px;
+	}
+	.my_progress {
+		display: none;
+	}
+	.mobile {
+		padding-left: 300px;
+	}
+	img.carousel_img {
+		width: 80px;
+		height: 80px;
+	}
+	.carousel_text {
+		font-size: 11px;
+		padding-left: 110px;
+	}
+	.line_carousel {
+		font-size: 11px;
+		padding-left: 190px;
+	}
+	.line_carousel::after {
+		left: 110px;
+	}
+	.carousel_some_work {
+		max-width: 80%;
+	}
+	img.carousel_some_work_img {
+		width: 100px;
+		height: 100px;
+	}
+	.carousel_some_work_text {
+		font-size: 13px;
+		padding-left: 120px;
+	}
+	.line_carousel {
+		font-size: 13px;
+		padding-left: 200px;
+	}
+	.line_carousel::after {
+		left: 120px;
+	}
+	.happy_clients_h2 {
+		font-size: 19px;
+	}
+	.happy_clients_h1 {
+		font-size: 26px;
+	}
+	.stories_h2 {
+		padding-top: 35px;
+	}
+	.about_stories {
+		display: block;
+		max-width: 50%;
+		text-align: left;
+		margin-left: 35px;
+	}
+	img.stories_img {
+		width: 280px;
+		height: 170px;
+	}
+}
+@media screen and (max-width: 550px) {
+	h1 {
+		font-size: 42px;
+	}
+	.text-about_us {
+		font-size: 10px;
+	}
+	.img_a {
+		width: 250px;
+		height: 150px;
+		margin-right: 20px;
+	}
+	.img-about_us {
+		padding-top: 20px;
+	}
+	.img-about_us a:hover::before {
+		width: 250px;
+		height: 150px;
+	}
+	.number {
+		font-size: 30px;
+	}
+	.text {
+		font-size: 6px;
+	}
+	.mobile {
+		padding-left: 260px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.accordion {
+		padding-right: 250px;
+		padding-left: 20px;
+	}
+	.accordion_link::after {
+		left: 270px;
+	}
+	.accordion_link.active::after {
+		left: 270px;
+	}
+	.some_work_text {
+		font-size: 10px;
+	}
+}
+@media screen and (max-width: 450px) {
+	.design_h2 {
+		font-size: 17px;
+	}
+	h3 {
+		font-size: 22px
+	}
+	.design_img {
+		width: 210px;
+		height: 310px;
+	}
+	.mobile {
+		height: 250px;
+		margin-top: -210px;
+		padding-left: 210px;
+	}
+	img.carousel_img {
+		width: 50px;
+		height: 50px;
+	}
+	.carousel_text {
+		padding-left: 80px;
+	}
+	.line_carousel {
+		padding-left: 150px;
+	}
+	.line_carousel::after {
+		left: 80px;
+	}
+	.carousel_some_work_text {
+		font-size: 10px;
+	}
+	.line_carousel {
+		font-size: 10px;
+		padding-left: 180px;
+	}
+	.line_carousel::after {
+		left: 110px;
+	}
+	.happy_clients_name {
+		padding-bottom: 5px;
+	}
+	.happy_clients_text {
+		font-size: 8px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.text {
+		font-size: 4px;
+	}
+	h2 {
+		font-size: 24px;
+	}
+	.text_services {
+		font-size: 11px;
+		width: 70%;
+	}
+	.mobile {
+		padding-left: 200px;
+	}
+	.accordion {
+		padding-right: 300px;
+	}
+	.accordion_link::after {
+		left: 230px;
+	}
+	.accordion_link.active::after {
+		left: 230px;
+	}
+	.carousel_text {
+		font-size: 7px;
+	}
+}
+@media screen and (max-width: 350px) {
+	.mobile {
+		padding-left: 170px;
+	}
+}
